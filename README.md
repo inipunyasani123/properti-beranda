@@ -2,7 +2,7 @@
 
 Cari rumah berdasarkan tahap hidup (keluarga, mahasiswa, pensiun) dan suasana kawasan. Hangat terakota dengan Bricolage Grotesque dan sudut membulat.
 
-**Demo live:** https://properti-beranda.vercel.app
+**Demo live:** https://properti-beranda.pintuweb.id
 
 ![Tangkapan layar Beranda](public/og.jpg)
 

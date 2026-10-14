@@ -6,10 +6,10 @@ import Footer from "@/components/Footer";
 const bricolage = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage", weight: ["400", "500", "600", "700"], display: "swap" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
-const __jsonld = {"@context":"https://schema.org","@type":"RealEstateAgent","name":"Beranda","description":"Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan — setiap listing terhubung ke panduan kawasan: suasana, waktu tempuh, kisaran harga, dan kekurangannya.","url":"https://properti-beranda.vercel.app","areaServed":"ID"};
+const __jsonld = {"@context":"https://schema.org","@type":"RealEstateAgent","name":"Beranda","description":"Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan — setiap listing terhubung ke panduan kawasan: suasana, waktu tempuh, kisaran harga, dan kekurangannya.","url":"https://properti-beranda.pintuweb.id","areaServed":"ID"};
 
 export const metadata = {
-  metadataBase: new URL("https://properti-beranda.vercel.app"),
+  metadataBase: new URL("https://properti-beranda.pintuweb.id"),
   title: { default: "Beranda — Pilih kawasannya dulu", template: "%s — Beranda" },
   description: "Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan — setiap listing terhubung ke panduan kawasan: suasana, waktu tempuh, kisaran harga, dan kekurangannya.",
   applicationName: "Beranda",
@@ -17,11 +17,11 @@ export const metadata = {
   authors: [{ name: "Beranda" }],
   creator: "Beranda",
   publisher: "Beranda",
-  alternates: { canonical: "https://properti-beranda.vercel.app" },
+  alternates: { canonical: "https://properti-beranda.pintuweb.id" },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://properti-beranda.vercel.app",
+    url: "https://properti-beranda.pintuweb.id",
     siteName: "Beranda",
     title: "Beranda — Pilih kawasannya dulu",
     description: "Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan — setiap listing terhubung ke panduan kawasan: suasana, waktu tempuh, kisaran harga, dan kekurangannya.",
