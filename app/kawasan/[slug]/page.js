@@ -6,6 +6,7 @@ import PropertyCard from '@/components/PropertyCard';
 import Reveal from '@/components/ui/Reveal';
 import { kawasan, getKawasan } from '@/lib/data';
 import { ringkasHarga } from '@/lib/kawasan';
+import { halaman } from '@/lib/seo';
 
 export function generateStaticParams() {
   return kawasan.map((k) => ({ slug: k.slug }));
@@ -15,12 +16,13 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const k = getKawasan(slug);
   if (!k) return { title: 'Kawasan tidak ditemukan' };
-  return {
-    title: `Panduan kawasan ${k.nama}, ${k.kota}`,
-    description: `${k.ringkas} Suasana, perkiraan waktu tempuh, kisaran harga, dan listing di ${k.nama}.`,
-    alternates: { canonical: `/kawasan/${k.slug}` },
-    openGraph: { images: [{ url: k.foto }] },
-  };
+  return halaman({
+    judul: `Panduan kawasan ${k.nama}, ${k.kota}`,
+    deskripsi: `${k.ringkas} Waktu tempuh, kisaran harga, dan listing di ${k.nama}.`,
+    path: `/kawasan/${k.slug}`,
+    gambar: k.foto,
+    alt: `Kawasan ${k.nama}, ${k.kota}`,
+  });
 }
 
 export default async function KawasanPage({ params }) {
@@ -34,7 +36,7 @@ export default async function KawasanPage({ params }) {
     <main className="relative z-10">
       <section className="px-4 pt-8 pb-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          <Link href="/kawasan" className="inline-flex items-center gap-1 text-sm font-semibold text-muted transition hover:text-forest"><ArrowLeft size={15} /> Semua kawasan</Link>
+          <Link href="/kawasan" className="-my-2 inline-flex items-center gap-1 py-2 text-sm font-semibold text-muted transition hover:text-forest"><ArrowLeft size={15} /> Semua kawasan</Link>
           <div className="mt-6 grid items-center gap-10 lg:grid-cols-[1fr_1fr]">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.15em] text-gold">Panduan kawasan · {k.kota}</p>

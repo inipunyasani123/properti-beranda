@@ -63,6 +63,8 @@ Semua foto berlisensi CC0 (domain publik), dipotong ke 4:3 dan dikonversi ke Web
 | `teras-kolam.webp` | Matt Bango | [StockSnap](https://stocksnap.io/photo/modern-house-UIU7D31EDY) | CC0 |
 | `teras-tropis.webp` | World Travel Adventures | [StockSnap](https://stocksnap.io/photo/furniture-patio-KOIAWLY3SU) | CC0 |
 
+`hero-ruang-tamu-terang.webp`, `hero-kamar-studio.webp`, dan `hero-rumah-modern.webp` adalah potongan berkas di atas untuk kolase beranda.
+
 ---
 
 Bagian dari koleksi 4 template marketplace properti di [PortalProperti](https://www.pintuweb.id/website-properti). Dibuat oleh [PintuWeb](https://www.pintuweb.id), jasa pembuatan website.

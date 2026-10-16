@@ -5,12 +5,13 @@ import PageHeader from '@/components/PageHeader';
 import Reveal from '@/components/ui/Reveal';
 import { kawasan } from '@/lib/data';
 import { ringkasHarga } from '@/lib/kawasan';
+import { halaman } from '@/lib/seo';
 
-export const metadata = {
-  title: 'Panduan kawasan',
-  description: 'Kotabaru, Cinere, Sanur, dan Lembang: suasana, perkiraan waktu tempuh, kisaran harga, dan untuk siapa kawasan itu paling cocok.',
-  alternates: { canonical: '/kawasan' },
-};
+export const metadata = halaman({
+  judul: 'Panduan kawasan',
+  deskripsi: 'Kotabaru, Cinere, Sanur, dan Lembang: suasana, perkiraan waktu tempuh, kisaran harga, dan untuk siapa kawasan itu paling cocok.',
+  path: '/kawasan',
+});
 
 const TAHAP = [
   ['Keluarga', 'Sekolah yang bisa dijangkau, jalan yang aman untuk anak, dan ruang untuk tumbuh.'],

@@ -6,12 +6,12 @@ import Footer from "@/components/Footer";
 const bricolage = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage", weight: ["400", "500", "600", "700"], display: "swap" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
-const __jsonld = {"@context":"https://schema.org","@type":"RealEstateAgent","name":"Beranda","description":"Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan — setiap listing terhubung ke panduan kawasan: suasana, waktu tempuh, kisaran harga, dan kekurangannya.","url":"https://properti-beranda.pintuweb.id","areaServed":"ID"};
+const __jsonld = {"@context":"https://schema.org","@type":"RealEstateAgent","name":"Beranda","description":"Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan. Tiap listing punya panduan kawasan: suasana, waktu tempuh, harga, dan kekurangannya.","url":"https://properti-beranda.pintuweb.id","areaServed":"ID"};
 
 export const metadata = {
   metadataBase: new URL("https://properti-beranda.pintuweb.id"),
   title: { default: "Beranda — Pilih kawasannya dulu", template: "%s — Beranda" },
-  description: "Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan — setiap listing terhubung ke panduan kawasan: suasana, waktu tempuh, kisaran harga, dan kekurangannya.",
+  description: "Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan. Tiap listing punya panduan kawasan: suasana, waktu tempuh, harga, dan kekurangannya.",
   applicationName: "Beranda",
   keywords: ["panduan kawasan", "rumah keluarga", "kost mahasiswa", "rumah pensiun", "Sanur", "Lembang", "Kotabaru", "Cinere"],
   authors: [{ name: "Beranda" }],
@@ -24,13 +24,13 @@ export const metadata = {
     url: "https://properti-beranda.pintuweb.id",
     siteName: "Beranda",
     title: "Beranda — Pilih kawasannya dulu",
-    description: "Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan — setiap listing terhubung ke panduan kawasan: suasana, waktu tempuh, kisaran harga, dan kekurangannya.",
+    description: "Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan. Tiap listing punya panduan kawasan: suasana, waktu tempuh, harga, dan kekurangannya.",
     images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Beranda — Pilih kawasannya dulu" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Beranda — Pilih kawasannya dulu",
-    description: "Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan — setiap listing terhubung ke panduan kawasan: suasana, waktu tempuh, kisaran harga, dan kekurangannya.",
+    description: "Rumah, kost, dan kebun untuk keluarga, mahasiswa, dan pensiunan. Tiap listing punya panduan kawasan: suasana, waktu tempuh, harga, dan kekurangannya.",
     images: ["/og.jpg"],
   },
   robots: {
