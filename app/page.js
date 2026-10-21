@@ -53,14 +53,14 @@ export default function HomePage() {
           <div className="relative">
             <div className="grid grid-cols-2 gap-3 sm:gap-4">
               <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem] rounded-tr-lg sm:rounded-[2.5rem] sm:rounded-tr-lg">
-                <Image src="/images/properti/hero-ruang-tamu-terang.webp" alt="" fill priority sizes="(max-width:1024px) 50vw, 30vw" className="object-cover" />
+                <Image src="/images/properti/hero-rumah-kelapa.webp" alt="" fill priority fetchPriority="high" sizes="(max-width:1024px) 50vw, 30vw" className="object-cover" />
               </div>
               <div className="mt-8 space-y-3 sm:mt-10 sm:space-y-4">
                 <div className="relative aspect-square overflow-hidden rounded-[2rem] rounded-bl-lg">
-                  <Image src="/images/properti/hero-kamar-studio.webp" alt="" fill sizes="(max-width:1024px) 50vw, 30vw" className="object-cover" />
+                  <Image src="/images/properti/hero-balkon-pagi.webp" alt="" fill sizes="(max-width:1024px) 50vw, 30vw" className="object-cover" />
                 </div>
                 <div className="relative aspect-square overflow-hidden rounded-[2rem] rounded-tr-lg">
-                  <Image src="/images/properti/hero-rumah-modern.webp" alt="" fill sizes="(max-width:1024px) 50vw, 30vw" className="object-cover" />
+                  <Image src="/images/properti/hero-meja-bunga.webp" alt="" fill sizes="(max-width:1024px) 50vw, 30vw" className="object-cover" />
                 </div>
               </div>
             </div>
